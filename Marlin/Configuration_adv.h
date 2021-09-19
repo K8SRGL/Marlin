@@ -1579,19 +1579,13 @@
  * printing performance versus fast display updates.
  */
 #if HAS_MARLINUI_U8GLIB
-<<<<<<< Updated upstream
-  // Save many cycles by drawing a hollow frame or no frame on the Info Screen
-  //#define XYZ_NO_FRAME
-  #define XYZ_HOLLOW_FRAME
-=======
   // Show SD percentage next to the progress bar
-  #define DOGM_SD_PERCENT
+  #define SHOW_SD_PERCENT
   // Save many cycles by drawing a hollow frame or no frame on the Info Screen
   //#define XYZ_NO_FRAME
   #define XYZ_HOLLOW_FRAME
   // Enable to save many cycles by drawing a hollow frame on Menu Screens
   #define MENU_HOLLOW_FRAME
->>>>>>> Stashed changes
 
   // A bigger font is available for edit items. Costs 3120 bytes of PROGMEM.
   // Western only. Not available for Cyrillic, Kana, Turkish, Greek, or Chinese.
@@ -3847,15 +3841,9 @@
  */
 #define HOST_ACTION_COMMANDS
 #if ENABLED(HOST_ACTION_COMMANDS)
-<<<<<<< Updated upstream
-  //#define HOST_PAUSE_M76
-  //#define HOST_PROMPT_SUPPORT
-  //#define HOST_START_MENU_ITEM  // Add a menu item that tells the host to start
-=======
   #define HOST_PAUSE_M76
   #define HOST_PROMPT_SUPPORT
   #define HOST_START_MENU_ITEM  // Add a menu item that tells the host to start
->>>>>>> Stashed changes
 #endif
 
 /**
